@@ -17,7 +17,4 @@ void Employee::info() const
 	cout << "working expirience: " << workYears << endl;
 }
 
-double Employee::getSalary() const
-{
-	return 0;
-}
+

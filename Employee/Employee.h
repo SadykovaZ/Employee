@@ -10,6 +10,6 @@ public:
 	int getWorkYears() const { return workYears; }
 
 	void info() const override;
-	virtual double getSalary() const;
+	virtual double getSalary() const=0;
 };
 

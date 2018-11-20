@@ -119,6 +119,7 @@
     <ClInclude Include="Director.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="Human.h" />
+    <ClInclude Include="Organization.h" />
     <ClInclude Include="Proger.h" />
   </ItemGroup>
   <ItemGroup>
@@ -126,7 +127,9 @@
     <ClCompile Include="Director.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Human.cpp" />
+    <ClCompile Include="Organization.cpp" />
     <ClCompile Include="Proger.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
